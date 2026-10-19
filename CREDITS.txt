@@ -1,0 +1,1 @@
+Petal Voice is an unofficial personal edition of Voice by Paul Woitaschek and contributors. Original source: https://github.com/PaulWoitaschek/Voice, tag 26.10.3-5410003. Original copyright, GPL license and third-party notices are retained. Author/series cover-card browsing is inspired by the user’s customized Cozy by geigi and contributors; the Compose implementation is new.
