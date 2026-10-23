@@ -6,6 +6,12 @@ Cozy-inspired browsing uses author cover cards → series cover stacks → books
 
 [Releases](https://github.com/ClownChowder/petal-voice/releases) include the APK and **full corresponding source** as `petal-voice-source.zip`, including Gradle wrapper, build configuration, notices and tests. This repository is the release index; GitHub’s automatic source ZIP is not the application source. Use the explicitly attached source archive.
 
+## Current preview
+
+[26.10.3-petal.6](https://github.com/ClownChowder/petal-voice/releases/tag/v26.10.3-petal.6), version code 6, adds [Petal Library](https://github.com/ClownChowder/petal-library) handoff with signature permission, caller signature and package checks. 163 fresh app/playback/data host tests passed; trusted handoff, exact-book opening, Undo, consent cancellation/reconnect and unauthorized callers were tested using disposable emulator libraries. Lint has no warnings or errors (two spelling hints); a Gradle output-state workaround is documented.
+
+Personal debug-signed preview with unchanged package and signing identity. Approximate whole-book matching requires matching editions. Physical performance, battery and live assistive technology remain unqualified. Optional Audiobookshelf networking and existing account/backup behavior remain; see CHECKS.txt and verification.json for exact results and inherited limits.
+
 ## Install and update
 
 Android package: `app.petalvoice`. Install alongside official Voice; the upstream signing key is unavailable, so this edition cannot update its original package. Obtainium source: `https://github.com/ClownChowder/petal-voice`; exact APK filter: `^petal-voice\.apk$`.
